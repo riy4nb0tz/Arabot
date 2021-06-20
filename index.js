@@ -301,8 +301,8 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-					teks = `ASEK ADA YANG OUT BISSMILLAH BACAYASIN\n
- @${num.split('@')[0]}\n❰ *SELAMAT JALAN AKU DAPAT BERKAT NASI ❱`
+					teks = `ALHAMDULILLAH BEBAN GRUP KELUAR\n
+ @${num.split('@')[0]}\n❰ *SELAMAT JALAN KAKAK SEMOGA TENANG DI ALAM SANA* ❱`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
