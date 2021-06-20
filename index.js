@@ -44,18 +44,18 @@ const { ind } = require('./bahasa')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Ara\n' //ganti nama lu! 
-            + 'ORG: Ara;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6281241405996:+62 81241405996\n'  //ganti nomor lu! 
+            + 'FN:Riyan BOTZ\n' //ganti nama lu! 
+            + 'ORG: BumerBot;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6283153406515:+62 83153406515\n'  //ganti nomor lu! 
             + 'END:VCARD'
-prefix = '.'
+prefix = '!'
 blocked = []   
 limitawal = 99999
 memberlimit = 1
-cr = '*「 ARA 」*'
-lolkey = 'e3d6805ea05cefd5b8fc3a9c'
+cr = '*「 Riyan 」*'
+lolkey = 'e27902b0a11d77147430c01c'
 /******** OWNER NUMBER**********/
-const ownerNumber = ["6281241405996@s.whatsapp.net"]   //ganti nomor lu! 
+const ownerNumber = ["6283153406515@s.whatsapp.net"]   //ganti nomor lu! 
 
 
        
@@ -1435,8 +1435,8 @@ case 'addbadword':
                     wew = fs.readFileSync(`./src/logobot.jpg`)
                       zain = `
 「 INFO BOT 」
-◨ Nama: Ara
-◨ Wa: wa.me/6282189387018
+◨ Nama: BumerBot
+◨ Wa: wa.me/6283196880829
 ◨ Prefix: 「  ${prefix}  」
 
 「 INFO PENGGUNA 」
