@@ -27,7 +27,7 @@ exports.lvlnoon = () => {
 }
 
 exports.noregis = () => {
-	return`*「 DAFTAR DULU 」*\n\n*Cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar Ara|14*`
+	return`*「 DAFTAR DULU 」*\n\n*Cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar Riyan|16*`
 }
 
 exports.rediregis = () => {
@@ -67,7 +67,7 @@ exports.nsfwoff = () => {
 }
 
 exports.bug = () => {
-	return`*Masalah telah di laporkan ke owner Araツ, Laporan palsu atau main² tidak akan ditanggapi.*`
+	return`*Masalah telah di laporkan ke owner Riyanツ, Laporan palsu atau main² tidak akan ditanggapi.*`
 }
 
 exports.wrongf = () => {
@@ -83,7 +83,7 @@ exports.pc = () => {
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-	return`*「 DATABASE ARA 」*\n\nkamu sudah terdaftar dengan data \n\n┏━⊱nama\n┗⊱${namaUser}\n┏━⊱nomer\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱umur\n┗⊱${umurUser}\n┏━⊱waktu pendaftaran\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : JANGAN LUPA SUBSCRIBE : https://youtube.com/channel/UCNWLjRnudLbgnRy1N98eoXg
+	return`*「 DATABASE ARA 」*\n\nkamu sudah terdaftar dengan data \n\n┏━⊱nama\n┗⊱${namaUser}\n┏━⊱nomer\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱umur\n┗⊱${umurUser}\n┏━⊱waktu pendaftaran\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : JANGAN LUPA SUBSCRIBE : https://youtube.com/channel/UCnOq-coEU87qbmzS5Wh-XHA
 `
 }
 
@@ -136,7 +136,7 @@ exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel,
 `}
  
 exports.limitend = (pushname) => {
-	return`*Maaf ${pushname} limit hari ini habis*\n*Hubungi kami* : wa.me/6281241405996\n\n*Note : Kami akan berikan random dari 1-10*`
+	return`*Maaf ${pushname} limit hari ini habis*\n*Hubungi kami* : wa.me/6283153406515\n\n*Note : Kami akan berikan random dari 1-10*`
 }
 
 exports.limitcount = (limitCounts) => {
